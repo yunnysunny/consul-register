@@ -44,7 +44,7 @@ test:check
 
 coverage:test
 	go tool cover -func ./coverage/coverage.out && \
-	go tool cover -html ./coverage/coverage.out -o ./coverage/index.html && \
+	go tool cover -html ./coverage/coverage.out -o ./coverage/index.html
 
 run:check
 	
