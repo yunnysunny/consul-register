@@ -21,9 +21,7 @@ jobs:
           - 8600:8600/tcp
           - 8600:8600/udp
     runs-on: ubuntu-latest
-    environment:
-      CONSUL_ADDR: localhost:8500
-      DEREGISTER_CRITICAL_SERVICE_AFTER_SECONDS: 5
+    
     steps:
     - uses: actions/checkout@v2
 
@@ -37,6 +35,9 @@ jobs:
 
     - name: Test
       run: make test && make coverage
+      environment:
+        CONSUL_ADDR: localhost:8500
+        DEREGISTER_CRITICAL_SERVICE_AFTER_SECONDS: 5
 
     - name: Upload Coverage report to CodeCov
       uses: codecov/codecov-action@v1.0.0
