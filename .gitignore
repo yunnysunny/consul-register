@@ -1,0 +1,7 @@
+/bin
+/coverage
+__debug_bin
+debug*
+launch.json
+/vendor
+.idea/
