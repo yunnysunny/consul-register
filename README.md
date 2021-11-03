@@ -61,6 +61,8 @@ go build -o ./bin/consul-register && chmod +x ./bin/consul-register
 go install github.com:yunnysunny/consul-register@v0.1.0
 ```
 
+安装完之后会在 $GOPATH/bin 目录下生成可执行文件 `consul-register`。
+
 ## 测试
 
 本地测试依赖于 环境变量 `CONSUL_ADDR`，同时为了避免产生脏数据，也相应的设置上 `DEREGISTER_CRITICAL_SERVICE_AFTER_SECONDS` 为一个确定的数值，比如说 `5`。正式使用的时候，`DEREGISTER_CRITICAL_SERVICE_AFTER_SECONDS` 不需要设置。
