@@ -1,5 +1,6 @@
 # consul-register
 
+[![codecov](https://codecov.io/gh/yunnysunny/consul-register/branch/main/graph/badge.svg?token=2JQ40ZUNF2)](https://codecov.io/gh/yunnysunny/consul-register)
 
 consul 服务注册插件，在系统启动时根据环境变量注册所需的服务到 consul 服务节点
 
@@ -44,12 +45,20 @@ consul 服务注册插件，在系统启动时根据环境变量注册所需的�
 
 
 ### 自定义编译
+使用自定义编译，可以使用最新代码来生成可执行程序。
 
 ```shell
 git clone git@github.com:yunnysunny/consul-register.git
 cd consul-register
 go mod tidy
 go build -o ./bin/consul-register && chmod +x ./bin/consul-register
+```
+
+### 下载安装
+使用 go install 可以选择安装最新稳定版本生成的可执行程序。
+
+```shell
+go install github.com:yunnysunny/consul-register@v0.1.0
 ```
 
 ## 测试
