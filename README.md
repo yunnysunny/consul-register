@@ -16,14 +16,14 @@ consul 服务注册插件，在系统启动时根据环境变量注册所需的�
 | ------------------------------------- | ------------ | ---- |
 | REGISTERED_HTTP_SERVICE_NAME          | 服务名称     | 必选 |
 | REGISTERED_HTTP_SERVICE_PORT          | 服务端口     | 必选 |
-| ENV_REGISTERED_HTTP_HEALTH_CHECK_PATH | 健康检查路径 | 必选 |
+| REGISTERED_HTTP_HEALTH_CHECK_PATH | 健康检查路径 | 必选 |
 
 注册 grpc 服务时，会读取如下环境变量
 
 | 环境变量                         | 作用     |      |
 | -------------------------------- | -------- | ---- |
-| ENV_REGISTERED_GRPC_SERVICE_NAME | 服务名称 | 必选 |
-| ENV_REGISTERED_GRPC_SERVICE_PORT | 服务端口 | 必选 |
+| REGISTERED_GRPC_SERVICE_NAME | 服务名称 | 必选 |
+| REGISTERED_GRPC_SERVICE_PORT | 服务端口 | 必选 |
 |                                  |          |      |
 
 不管是 http 还是 grpc，两者通用的环境变量如下
