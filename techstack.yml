@@ -1,0 +1,350 @@
+repo_name: yunnysunny/consul-register
+report_id: 11950a6568bf7aa0a97bae49c01a1903
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-05T15:56:52+00:00'
+requested_by: yunnysunny
+provider: github
+branch: main
+detected_tools_count: 25
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/yunnysunny/consul-register
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yunnysunny/consul-register
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/.github/workflows/go.yml
+  detection_source: ".github/workflows/go.yml"
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: armon/go-metrics
+  description: A Golang library for exporting performance and runtime metrics to external
+    metrics systems
+  package_url: https://pkg.go.dev/github.com/armon/go-metrics
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: assertions
+  description: Fluent assertion-style functions used by goconvey and gunit
+  package_url: https://pkg.go.dev/github.com/smartystreets/assertions
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: consul/api
+  description: Consul is a distributed
+  package_url: https://pkg.go.dev/github.com/hashicorp/consul/api
+  version: 1.10.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: gls
+  description: Goroutine local storage
+  package_url: https://pkg.go.dev/github.com/jtolds/gls
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-cleanhttp
+  description: 'Cleanhttp Functions for accessing "clean" Go http.Client values The
+    Go standard library contains a default called '
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-cleanhttp
+  version: 0.5.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-hclog
+  description: A common logging package for HashiCorp tools
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-hclog
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-homedir
+  description: Go library for detecting and expanding the user's home directory without
+    cgo
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-homedir
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-immutable-radix
+  description: An immutable radix tree implementation in Golang
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-immutable-radix
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: go-rootcerts
+  description: Functions for loading root certificates for TLS connections
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-rootcerts
+  version: 1.0.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: goconvey
+  description: Go testing in the browser
+  package_url: https://pkg.go.dev/github.com/smartystreets/goconvey
+  version: 1.6.4
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: golang-lru
+  description: Golang LRU cache
+  package_url: https://pkg.go.dev/github.com/hashicorp/golang-lru
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: gopherjs
+  description: A compiler from Go to JavaScript for running Go code in a browser
+  package_url: https://pkg.go.dev/github.com/gopherjs/gopherjs
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/consul-register/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: yunnysunny
+  last_updated_on: 2021-11-03 07:49:12.000000000 Z
