@@ -2,7 +2,7 @@ repo_name: yunnysunny/consul-register
 report_id: 11950a6568bf7aa0a97bae49c01a1903
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-05T15:56:52+00:00'
+timestamp: '2024-02-29T19:55:15+00:00'
 requested_by: yunnysunny
 provider: github
 branch: main
@@ -138,8 +138,8 @@ tools:
   last_updated_by: yunnysunny
   last_updated_on: 2021-11-03 07:49:12.000000000 Z
 - name: go-cleanhttp
-  description: 'Cleanhttp Functions for accessing "clean" Go http.Client values The
-    Go standard library contains a default called '
+  description: Cleanhttp Functions for accessing "clean" Go http.Client values The
+    Go standard library contains a default called
   package_url: https://pkg.go.dev/github.com/hashicorp/go-cleanhttp
   version: 0.5.1
   license: MPL-2.0
